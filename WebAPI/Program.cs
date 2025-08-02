@@ -19,7 +19,6 @@ builder.Host.UseSerilog((context, configuration) =>
 
 var app = builder.Build();
 
-8
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
