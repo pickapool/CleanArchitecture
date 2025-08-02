@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Application;
+namespace Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddApplicationLayer(this IServiceCollection services)
+    public static IServiceCollection AddinfrastructureLayer(this IServiceCollection services)
     {
         var assembly = typeof(DependencyInjection).Assembly;
 
